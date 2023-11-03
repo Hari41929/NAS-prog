@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background:chocolate;
+    background: url(1m1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    bottom: 0;
+    
+}
+.donut{
+    background:transparent;
+    width: 350px;
+    border-radius: 15px;
+    padding: 30px 40px;
+    border: none ;
+    backdrop-filter : blur(10px);
+    box-shadow: 0 0 10px rgb(0,0,0,.2);
+
+
+}
+.donut h1{
+    text-align: center;
+    color:#fff
+}
+.donut .cream{
+    position: relative;
+    width:100%;
+    height: 40px;
+    margin: 20px 0;
+    
+    
+}
+.donut input{
+    width: 100%;
+    height: 100%;
+    background: rgb(231, 9, 176);
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid rgb(255,255,255,.2);
+    padding: 20px 20px 20px 20px;
+
+}
+input::placeholder{
+    color:#fff;
+}
+.cream i{
+    position: absolute;
+    right: 20px ;
+    transform: translateY(80%);
+}
+.already{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+
+}
+.already a{
+    color: #fff;
+}
+.donut button{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    background: #fff;
+    border: none;
+    outline:none;
+    box-shadow: 0 0 10px rgb(255,255,255,.2);
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 700;
+}
+

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+header{
+    background: black;
+    min-height: 12vh;
+}
+ul{
+    float: right;
+    list-style-type: none;
+
+}
+ul li{
+    display: inline-block;
+    padding: 25px;
+    
+
+}
+ul li a{
+    text-decoration: none;
+    border: 2px solid grey;
+    padding:5px 20px;
+    border-radius: 15px;
+    color: white;
+    transition: 0.9s ease;
+
+
+}
+ul li a:hover{
+    background-color: azure;
+    color:black ;
+}
+.na{
+    position: absolute;
+    top: 40%;
+    right: 60%;
+    font-size: 30px;
+}
+.cont{
+    position:absolute;
+    top:50%;
+    right: 60%;
+    font-size: 30px;
+}
+.st{
+    position:absolute;
+    top: 15%;
+    right: 90px;
+}
+
